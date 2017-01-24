@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="kullanici.master.cs" Inherits="kullanici" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Emlak Sitesi</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="kullanici.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="frame">
+        <div class="head">
+            <img alt="emlak_banner" src="../tema/emlak_banner.jpg" / height="95" width="1000" /></div>
+        <div class="talep">
+            <div class="etalep"></div>
+        </div>
+        <div class="body">
+            <div class="body-left"></div><div class="body-right">
+          
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+          
+            </div>
+        </div>
+        <div class="alt"></div>
+    </div>
+    </form>
+</body>
+</html>

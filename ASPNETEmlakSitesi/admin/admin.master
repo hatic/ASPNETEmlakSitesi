@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin_admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Site.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 997px;
+            height: 93px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+         <div class="frame">
+        <div class="head">
+            <img alt="emlak_banner" src="../tema/emlak_banner.jpg" / height="95" width="1000" /></div>
+        <div class="body">
+            <div class="body-left"></div><div class="body-right">
+          
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+          
+            </div>
+        </div>
+    </div>
+    </div>
+    </form>
+</body>
+</html>
